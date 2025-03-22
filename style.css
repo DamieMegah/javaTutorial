@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #1e1e2e;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ffcc00;
+    color: black;
+    padding: 20px;
+}
+
+.track {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.step {
+    padding: 15px;
+    margin: 10px;
+    background: gray;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.completed {
+    background: green;
+}
+
+button {
+    background: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e04a29;
+}
